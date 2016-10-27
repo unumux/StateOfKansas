@@ -1,4 +1,7 @@
 .product {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 
     &__heading {
         color: #265b80;
@@ -16,10 +19,37 @@
     }
 
     &__video {
+        -webkit-order: 0;
+        -ms-flex-order: 0;
+        order: 0;
+        -webkit-flex: 1 1 auto;
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        -webkit-align-self: stretch;
+        -ms-flex-item-align: stretch;
+        align-self: stretch;
+        
         iframe {
+            
             max-width: 450px;
             width: 100%;
+
+            @media only screen and (min-width: 466px) {
+                height: 250px;
+            }
         }
+    }
+
+    &__copy {
+        -webkit-order: 0;
+        -ms-flex-order: 0;
+        order: 0;
+        -webkit-flex: 1 1 100%;
+        -ms-flex: 1 1 100%;
+        flex: 1 1 100%;
+        -webkit-align-self: stretch;
+        -ms-flex-item-align: stretch;
+        align-self: stretch;
     }
 
     &__gauranteed-issue {
