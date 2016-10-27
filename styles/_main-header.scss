@@ -1,7 +1,12 @@
 .main-header {
 
     &__logo {
-        text-align: center;
+        max-height: 100px;
+        max-width: 100%;
+        width: auto;
+        height: auto;
+        margin: 0 auto;
+        display: block;
     }
 
 }
