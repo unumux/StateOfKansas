@@ -1,8 +1,17 @@
 .hero {
+    background: #333;
+    background-image: url(/~/media/A30CD5BC7A05473CAA7BE63D11A26711);
+    padding: 50px;
+    margin: 25px 0;
 
     &-title {
+        color: #fff;
         font-family: 'Oswald', sans-serif;
         font-size: 30px;
+        font-weight: 400;
+        line-height: 1.1em;
+        text-align: center;
+        text-transform: uppercase;
 
         @media only screen and (min-width: 640px) {
             font-size: 60px;

@@ -1,7 +1,18 @@
 .product {
 
     &__heading {
+        color: #265b80;
+        font-size: 24px;
         text-transform: uppercase;
+
+        font-weight: 300;
+        font-style: normal;
+        letter-spacing: 0px;
+        line-height: 1.2em;
+
+        @media only screen and (min-width: 768px) {
+            font-size: 42px;
+        }
     }
 
     &__video {
