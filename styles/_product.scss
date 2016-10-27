@@ -1,0 +1,23 @@
+.product {
+
+    &__heading {
+        text-transform: uppercase;
+    }
+
+    &__video {
+        content: "";
+    }
+
+    &__gauranteed-issue {
+        font-style: italic;
+    }
+
+    &__learn-more {
+        color: inherit;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+
+
+}
