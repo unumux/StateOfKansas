@@ -1,2 +1,2 @@
-*{box-sizing:border-box}body{background:#dedede;color:#111}
+@import url("https://fonts.googleapis.com/css?family=Oswald|Source+Sans+Pro");*{box-sizing:border-box;font-family:Source Sans Pro,sans-serif}h1,h2,h3,h4,h5{font-family:Oswald,sans-serif}
 /*# sourceMappingURL=site.min.css.map */
