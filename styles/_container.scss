@@ -1,4 +1,6 @@
-.main-content {
+.container {
+    @include pad(0, 3);
+
     margin: 0 auto;
     max-width: 96rem;
 }
