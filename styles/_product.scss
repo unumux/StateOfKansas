@@ -1,15 +1,13 @@
 .product {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    margin-bottom: $padding-base * 3;
 
     &__heading {
         color: #265b80;
         font-size: 2.4rem;
-        text-transform: uppercase;
-
-        font-weight: 300;
         font-style: normal;
+        font-weight: 300;
+        margin-bottom: $padding-base;
+        text-transform: uppercase;
 
         @media only screen and (min-width: 76.8rem) {
             font-size: 4rem;
