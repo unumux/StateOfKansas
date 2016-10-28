@@ -1,12 +1,10 @@
 .main-header {
+    margin: 0 auto;
+    max-width: 96rem;
 
     &__logo {
-        max-height: 100px;
-        max-width: 100%;
-        width: auto;
-        height: auto;
-        margin: 0 auto;
-        display: block;
+        margin: 1rem;
+        max-height: 8rem;
     }
 
 }
