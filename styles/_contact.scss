@@ -1,3 +1,10 @@
 .contact {
-    @include pad;
+    @include padV;
+
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+
+    &__phone {
+        font-weight: 700;
+        white-space: nowrap;
+    }
 }

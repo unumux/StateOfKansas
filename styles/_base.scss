@@ -36,3 +36,16 @@ h1, h2, h3, h4, h5 {
     line-height: 1.1em;
 }
 
+h1 {
+    color: #265b80;
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 300;
+    margin-bottom: $padding-base;
+    text-transform: uppercase;
+
+    @media only screen and (min-width: 76.8rem) {
+        font-size: 4rem;
+    }
+}
+

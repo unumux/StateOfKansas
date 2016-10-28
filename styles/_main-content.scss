@@ -1,5 +1,6 @@
 .main-content {
-    padding: 20px;
+    @include padV;
+
     width: 100%;
     margin: 0 auto;
     max-width: 96rem;

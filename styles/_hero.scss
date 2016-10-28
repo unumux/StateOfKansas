@@ -4,8 +4,8 @@
 
     align-items: center;
     background-color: #333;
-    //background-image: url('http://acpt.coloniallife.com/~/media/A30CD5BC7A05473CAA7BE63D11A26711');
-    background-image: url('http://acpt.coloniallife.com/~/media/55431D20604F4A50B2C314A2A532B1AD');
+    background-image: url('http://acpt.coloniallife.com/~/media/A30CD5BC7A05473CAA7BE63D11A26711');
+    //background-image: url('http://acpt.coloniallife.com/~/media/55431D20604F4A50B2C314A2A532B1AD');
     //background-image: url('http://acpt.coloniallife.com/~/media/F8FA3E9C2C5C44DEBD5C115A52F73BAC');
     background-size: cover;
     background-position: center center;
@@ -32,11 +32,17 @@
     }
 
     &__link {
-        background-color: #265B80;
         border-radius: 0.3rem;
+        border: 2px solid #fff;
         color: #fff;
         display: inline-block;
         text-decoration: none;
         padding: 1rem 3rem;
+        transition: background-color 0.3s, color 0.3s;
+
+        &:hover {
+            background-color: #fff;
+            color: #265b80;
+        }
     }
 }

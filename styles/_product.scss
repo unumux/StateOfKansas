@@ -2,16 +2,7 @@
     margin-bottom: $padding-base * 3;
 
     &__heading {
-        color: #265b80;
-        font-size: 2.4rem;
-        font-style: normal;
-        font-weight: 300;
-        margin-bottom: $padding-base;
-        text-transform: uppercase;
 
-        @media only screen and (min-width: 76.8rem) {
-            font-size: 4rem;
-        }
     }
 
     &__wrapper {
@@ -54,9 +45,16 @@
     }
 
     &__learn-more {
-        color: inherit;
-        font-weight: bold;
-        text-transform: uppercase;
+        background-color: #265B80;
+        border-radius: 0.3rem;
+        color: #fff;
+        display: inline-block;
         text-decoration: none;
+        padding: 1rem 3rem;
+        transition: background-color 0.3s;
+
+        &:hover {
+            background-color: #366B90;
+        }
     }
 }
